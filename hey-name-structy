@@ -4,3 +4,7 @@ class Source {
     return "hey " + s;
   }
 }
+
+public static void run() {
+  // acts as main
+}

@@ -1,0 +1,17 @@
+class Source {
+  public static double maxValue(double[] numbers) {
+    // initiate variable max equal to value negative infinity
+    double max = Double.NEGATIVE_INFINITY;
+    // for each num in numbers, if num is greater than max, max equals num
+    for (double num: numbers) {
+      if (num > max) {
+        max = num;
+      }
+    }
+    return max;
+  }
+}
+
+public static void run() {
+  // acts as main
+}
