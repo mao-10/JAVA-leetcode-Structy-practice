@@ -1,0 +1,21 @@
+class Source {
+  public static String longestWord(String sentence) {
+    // create array of words from sentence, split by " "
+    // create variable longest
+    String[] words = sentence.split(" ");
+    String longest = "";
+
+    // for each word in words, compare length with longest
+    // if equal to orlonger than longest, longest becomes the new word
+    for (String word: words) {
+      if (word.length()>= longest.length()) {
+        longest = word;
+      }
+    }
+  }
+  return longest;
+}
+
+public static void run() {
+  // main
+}

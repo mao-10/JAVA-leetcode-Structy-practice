@@ -8,8 +8,8 @@ class Source {
         max = num;
       }
     }
-    return max;
   }
+  return max;
 }
 
 public static void run() {
