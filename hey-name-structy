@@ -1,0 +1,6 @@
+class Source {
+  public static String greet(String s) {
+    // return "hey s"
+    return "hey " + s;
+  }
+}
